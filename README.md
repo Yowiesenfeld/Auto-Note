@@ -1,1 +1,1 @@
-# Auto-Note
+# Note Taker Starter Code
