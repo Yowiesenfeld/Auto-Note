@@ -12,11 +12,11 @@ app.use(express.static('public'));
 // routes here
 // HTML routes
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html');
+  res.sendFile(__dirname + '/Develop/public/index.html');
 });
 
 app.get('/notes', (req, res) => {
-  res.sendFile(__dirname + '/public/notes.html');
+  res.sendFile(__dirname + '/Develop/public/notes.html');
 });
 
 
